@@ -216,7 +216,7 @@ const projects = [
     ],
     image: coauthMobile,
     repo: "https://github.com/shaqdeff/Leaderboard",
-    demo: "https://coauth.app/personal",
+    demo: "https://coauth.app/",
   },
   {
     id: "project-3",
