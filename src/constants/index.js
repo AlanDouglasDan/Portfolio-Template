@@ -24,7 +24,7 @@ import {
   // nyeusi,
   // space,
   // coverhunt,
-  simbaLogo,
+  // simbaLogo,
   // kelhel,
   // microverse,
   // coauthWeb,
@@ -36,8 +36,10 @@ import {
   lendsqr,
   africweddingsLogo,
   lifeeremitLogo,
-  nairaboxLogo,
+  // nairaboxLogo,
   aladdinLogo,
+  bitfinexLogo,
+  jumiaLogo
 } from "../assets";
 
 export const navLinks = [
@@ -139,35 +141,35 @@ const experiences = [
     company_name: "Africweddings",
     icon: africweddingsLogo,
     iconBg: "#FFF",
-    date: "Jun 2021 - Nov 2022",
+    date: "May 2019 - Nov 2020",
   },
   {
     title: "MERN Stack Developer",
     company_name: "Lifeeremit",
     icon: lifeeremitLogo,
     iconBg: "#FFF",
-    date: "Sep 2022 - Jan 2023",
+    date: "Apr 2020 - Jul 2021",
   },
   {
     title: "React Native Engineer",
-    company_name: "nairabox",
-    icon: nairaboxLogo,
-    iconBg: "#333",
-    date: "May 2022 - Oct 2022",
-  },
-  {
-    title: "Frontend Developer",
-    company_name: "Simba",
-    icon: simbaLogo,
-    iconBg: "#FFF",
-    date: "Sep 2022 - Sep 2023",
-  },
-  {
-    title: "Mobile Developer",
     company_name: "Aladdin Digital",
     icon: aladdinLogo,
     iconBg: "#FFF",
-    date: "Jun 2023 - Oct 2023",
+    date: "Jun 2021 - Jan 2022",
+  },
+  {
+    title: "Software Engineer",
+    company_name: "Jumia Group",
+    icon: jumiaLogo,
+    iconBg: "#FFF",
+    date: "Feb 2022 - Dec 2022",
+  },
+  {
+    title: "Mobile Developer",
+    company_name: "Bitfinex",
+    icon: bitfinexLogo,
+    iconBg: "#FFF",
+    date: "Jan 2023 - Dec 2023",
   },
 ];
 

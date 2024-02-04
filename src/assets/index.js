@@ -48,6 +48,8 @@ import nairaboxLogo from "./company/nairabox.png";
 import simbaLogo from "./company/simba.png";
 import aladdinLogo from "./company/aladdin.png";
 import lifeeremitLogo from "./company/lifeeremit.jpeg";
+import bitfinexLogo from "./company/bitfinex.jpeg";
+import jumiaLogo from "./company/jumia.png";
 
 import komikult from "./projects/komikult.png";
 import leaderboard from "./projects/leaderboard.png";
@@ -121,5 +123,7 @@ export {
   lifeeremitLogo,
   nairaboxLogo,
   simbaLogo,
-  aladdinLogo
+  aladdinLogo,
+  bitfinexLogo,
+  jumiaLogo,
 };
