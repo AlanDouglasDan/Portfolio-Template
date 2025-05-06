@@ -50,6 +50,8 @@ import aladdinLogo from "./company/aladdin.png";
 import lifeeremitLogo from "./company/lifeeremit.jpeg";
 import bitfinexLogo from "./company/bitfinex.jpeg";
 import jumiaLogo from "./company/jumia.png";
+import bookdLogo from "./company/bookd.png";
+import dopperLogo from "./company/dopper.jpeg";
 
 import komikult from "./projects/komikult.png";
 import leaderboard from "./projects/leaderboard.png";
@@ -64,6 +66,11 @@ import aladdin from "./projects/aladdin-home.png";
 import lifeeremit from "./projects/lifeeremit-home.png";
 import africweddings from "./projects/africweddings.png";
 import nairabox from "./projects/nairabox.png";
+import bookd from "./projects/book-d.png";
+import bitfinex from "./projects/bitfinex.png";
+import gopuff from "./projects/gopuff.png";
+import hudi from "./projects/hudi.png";
+import nominalx from "./projects/nominalx.png";
 
 export {
   bwmap,
@@ -126,4 +133,11 @@ export {
   aladdinLogo,
   bitfinexLogo,
   jumiaLogo,
+  bookdLogo,
+  dopperLogo,
+  bookd,
+  bitfinex,
+  gopuff,
+  hudi,
+  nominalx,
 };

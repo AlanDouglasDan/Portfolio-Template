@@ -28,18 +28,25 @@ import {
   // kelhel,
   // microverse,
   // coauthWeb,
-  coauthMobile,
-  africweddings,
+  // coauthMobile,
+  // africweddings,
   aladdin,
-  lifeeremit,
-  nairabox,
-  lendsqr,
+  // lifeeremit,
+  // nairabox,
+  // lendsqr,
   africweddingsLogo,
   lifeeremitLogo,
   // nairaboxLogo,
+  bookdLogo,
+  dopperLogo,
   aladdinLogo,
   bitfinexLogo,
-  jumiaLogo
+  jumiaLogo,
+  bookd,
+  bitfinex,
+  gopuff,
+  hudi,
+  nominalx,
 } from "../assets";
 
 export const navLinks = [
@@ -141,67 +148,51 @@ const experiences = [
     company_name: "Africweddings",
     icon: africweddingsLogo,
     iconBg: "#FFF",
-    date: "May 2019 - Nov 2020",
+    date: "Apr 2019 - Sep 2020",
   },
   {
     title: "MERN Stack Developer",
     company_name: "Lifeeremit",
     icon: lifeeremitLogo,
     iconBg: "#FFF",
-    date: "Apr 2020 - Jul 2021",
-  },
-  {
-    title: "React Native Engineer",
-    company_name: "Aladdin Digital",
-    icon: aladdinLogo,
-    iconBg: "#FFF",
-    date: "Jun 2021 - Jan 2022",
+    date: "Oct 2020 - Aug 2021",
   },
   {
     title: "Software Engineer",
     company_name: "Jumia Group",
     icon: jumiaLogo,
     iconBg: "#FFF",
-    date: "Feb 2022 - Dec 2022",
+    date: "Sep 2021 - Feb 2022",
+  },
+  {
+    title: "Full Stack Developer",
+    company_name: "Dopper",
+    icon: dopperLogo,
+    iconBg: "#0067E5",
+    date: "Feb 2022 - Jun 2023",
   },
   {
     title: "Mobile Developer",
     company_name: "Bitfinex",
     icon: bitfinexLogo,
-    iconBg: "#FFF",
-    date: "Jan 2023 - Dec 2023",
+    iconBg: "#0E3451",
+    date: "May 2023 - Mar 2024",
+  },
+  {
+    title: "Lead Mobile Developer",
+    company_name: "Book-d",
+    icon: bookdLogo,
+    iconBg: "#FAF7E7",
+    date: "Apr 2024 - Present",
   },
 ];
 
 const projects = [
-  // {
-  //   id: "project-1",
-  //   name: "Coauth Web",
-  //   description:
-  //     "A website that showcases info about the product and has a live demo feature",
-  //   tags: [
-  //     {
-  //       name: "react",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "mongodb",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "tailwind",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  //   image: coauthWeb,
-  //   repo: "https://github.com/shaqdeff/KomiKult",
-  //   demo: "https://coauth.app",
-  // },
   {
-    id: "project-2",
-    name: "Coauth",
+    id: "project-1",
+    name: "Book-d Pro",
     description:
-      "An app that provides a way to spend, authorise and manage your payments",
+      "An app that allows stylists to manage bookings and clients",
     tags: [
       {
         name: "react",
@@ -216,14 +207,14 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: coauthMobile,
+    image: bookd,
     repo: "https://github.com/shaqdeff/Leaderboard",
-    demo: "https://coauth.app/",
+    demo: "https://book-d.co.uk/",
   },
   {
-    id: "project-3",
-    name: "Afric Weddings",
-    description: "An All In One Wedding Event App",
+    id: "project-2",
+    name: "Bitfinex",
+    description: "An app that allows users to buy and sell cryptocurrencies",
     tags: [
       {
         name: "nextjs",
@@ -238,14 +229,80 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: africweddings,
+    image: bitfinex,
     repo: "https://github.com/shaqdeff/Math-Magicians",
-    demo: "https://africweddings.com",
+    demo: "https://bitfinex.com",
+  },
+  {
+    id: "project-3",
+    name: "Hudi",
+    description: `A Muslim app that helps users build habits and track their progress`,
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "supabase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: hudi,
+    repo: "https://github.com/shaqdeff/Movie-Metro",
+    demo: "https://gethudi.com",
   },
   {
     id: "project-4",
-    name: "Aladdin Digial",
-    description: `Africa’s Global Payment Solution`,
+    name: "Nominalx",
+    description: "An app for shopping for jewelries",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "supabase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: nominalx,
+    repo: "https://github.com/shaqdeff/Nyeusi-Fest-Site",
+    demo: "https://nominalx.com",
+  },
+  {
+    id: "project-5",
+    name: "Gopuff",
+    description: "A web app for buying and selling goods",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "supabase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: gopuff,
+    repo: "https://github.com/shaqdeff/Nyeusi-Fest-Site",
+    demo: "https://gopuff.com",
+  },
+  {
+    id: "project-6",
+    name: "Aladdin Digital",
+    description: "Africa's Global Payment Solution",
     tags: [
       {
         name: "nextjs",
@@ -261,74 +318,8 @@ const projects = [
       },
     ],
     image: aladdin,
-    repo: "https://github.com/shaqdeff/Movie-Metro",
-    demo: "https://aladdin.ng",
-  },
-  {
-    id: "project-5",
-    name: "Lifeeremit",
-    description: "A Stress free software License Payments and Renewals",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: lifeeremit,
     repo: "https://github.com/shaqdeff/Nyeusi-Fest-Site",
-    demo: "https://lifeeremit.com",
-  },
-  {
-    id: "project-6",
-    name: "Nairabox",
-    description: "A one-stop lifestyle platform",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: nairabox,
-    repo: "https://github.com/shaqdeff/Nyeusi-Fest-Site",
-    demo: "https://nairabox.com",
-  },
-  {
-    id: "project-7",
-    name: "Lendsqr",
-    description: "An Automated Way to handle a lending business",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: lendsqr,
-    repo: "https://github.com/shaqdeff/Nyeusi-Fest-Site",
-    demo: "https://alan-douglas-dan-lendsqr-fe-test.vercel.app/dashboard",
+    demo: "https://www.linkedin.com/company/aladdindigitalng?originalSubdomain=ng",
   },
 ];
 

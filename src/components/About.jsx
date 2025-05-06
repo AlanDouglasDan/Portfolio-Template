@@ -40,12 +40,15 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]"
       >
-        I am a versatile and skilled professional specializing in full-stack and
-        mobile development. Throughout my journey, I have gained expertise in
-        designing and building robust and scalable applications that deliver
-        exceptional user experiences. With over 4 years of experience, I have a
-        firm grasp of Objet Oriented Programming, Algorithms and Data
-        Structures.
+        Independent and versatile Software Engineer with 6+ years of coding
+        experience delivering high-impact mobile and full-stack solutions for
+        clients across diverse industries including Payments, eCommerce,
+        Healthcare, and Web3. Adept at architecting end-to-end applications
+        using cross-platform technologies like React Native and modern web
+        frameworks, with deep expertise in cloud infrastructure (Google Cloud),
+        CI/CD automation, and rigorous testing. Proven ability to work
+        autonomously, manage client engagements remotely, and drive innovation
+        through agile methodologies.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

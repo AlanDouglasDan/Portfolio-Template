@@ -50,7 +50,7 @@ const Hero = () => {
               </span>
             </h1>
             <p className={`${styles.heroSubText} mt-2 text-eerieBlack`}>
-              Software Developer from Nigeria.{" "}
+              A Software Developer from Nigeria.{" "}
               <br className="sm:block hidden" />
               Currently exploring the shores of Web and Mobile Development.
             </p>
